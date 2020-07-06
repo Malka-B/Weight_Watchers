@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Services\bin\Debug\netcoreapp3.1\Subscriber.Services.deps.json
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Services\bin\Debug\netcoreapp3.1\Subscriber.Services.dll
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Services\bin\Debug\netcoreapp3.1\Subscriber.Services.pdb
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Services\obj\Debug\netcoreapp3.1\Subscriber.Services.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Services\obj\Debug\netcoreapp3.1\Subscriber.Services.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Services\obj\Debug\netcoreapp3.1\Subscriber.Services.AssemblyInfo.cs
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Services\obj\Debug\netcoreapp3.1\Subscriber.Services.dll
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Services\obj\Debug\netcoreapp3.1\Subscriber.Services.pdb
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Services\obj\Debug\netcoreapp3.1\Subscriber.Services.csproj.CoreCompileInputs.cache

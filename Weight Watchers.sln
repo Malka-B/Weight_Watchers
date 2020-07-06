@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subscriber.WebApi", "Weight Watchers\Subscriber.WebApi.csproj", "{BEB05AF2-0208-475A-AA5A-BCA66CC0A6A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Subscribers", "Subscribers", "{6C154CC2-885F-4435-A761-F9681ED969AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subscriber.Data", "Subscriber.Data\Subscriber.Data.csproj", "{373422F0-C04A-46FE-8475-E06485A814B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subscriber.Services", "Subscriber.Services\Subscriber.Services.csproj", "{87791E0D-DE27-4573-B614-E042AFF8F300}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEB05AF2-0208-475A-AA5A-BCA66CC0A6A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB05AF2-0208-475A-AA5A-BCA66CC0A6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB05AF2-0208-475A-AA5A-BCA66CC0A6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB05AF2-0208-475A-AA5A-BCA66CC0A6A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373422F0-C04A-46FE-8475-E06485A814B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373422F0-C04A-46FE-8475-E06485A814B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373422F0-C04A-46FE-8475-E06485A814B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373422F0-C04A-46FE-8475-E06485A814B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87791E0D-DE27-4573-B614-E042AFF8F300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87791E0D-DE27-4573-B614-E042AFF8F300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87791E0D-DE27-4573-B614-E042AFF8F300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87791E0D-DE27-4573-B614-E042AFF8F300}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BEB05AF2-0208-475A-AA5A-BCA66CC0A6A6} = {6C154CC2-885F-4435-A761-F9681ED969AA}
+		{373422F0-C04A-46FE-8475-E06485A814B2} = {6C154CC2-885F-4435-A761-F9681ED969AA}
+		{87791E0D-DE27-4573-B614-E042AFF8F300} = {6C154CC2-885F-4435-A761-F9681ED969AA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABB210BF-6360-4D46-A90A-41C8830C94C9}
+	EndGlobalSection
+EndGlobal

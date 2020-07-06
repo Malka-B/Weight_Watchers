@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Data\bin\Debug\netcoreapp3.1\Subscriber.Services.dll
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Data\obj\Debug\netcoreapp3.1\Subscriber.Data.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Data\obj\Debug\netcoreapp3.1\Subscriber.Data.AssemblyInfo.cs
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Data\bin\Debug\netcoreapp3.1\Subscriber.Data.deps.json
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Data\bin\Debug\netcoreapp3.1\Subscriber.Data.dll
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Data\bin\Debug\netcoreapp3.1\Subscriber.Data.pdb
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Data\bin\Debug\netcoreapp3.1\Subscriber.Services.pdb
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Data\obj\Debug\netcoreapp3.1\Subscriber.Data.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Data\obj\Debug\netcoreapp3.1\Subscriber.Data.csproj.CopyComplete
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Data\obj\Debug\netcoreapp3.1\Subscriber.Data.dll
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Data\obj\Debug\netcoreapp3.1\Subscriber.Data.pdb
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Data\bin\Debug\netcoreapp3.1\Subscriber.Data.runtimeconfig.json
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Data\bin\Debug\netcoreapp3.1\Subscriber.Data.runtimeconfig.dev.json
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Data\obj\Debug\netcoreapp3.1\Subscriber.Data.genruntimeconfig.cache
+C:\Users\User\source\repos\Weight Watchers\Subscriber.Data\obj\Debug\netcoreapp3.1\Subscriber.Data.csproj.CoreCompileInputs.cache
