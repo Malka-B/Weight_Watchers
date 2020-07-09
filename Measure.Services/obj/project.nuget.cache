@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "j7hXURO4f5SVZwQ/kW3RBInSnGR6ILctGwMo5x0okX1tVeHz4aS8qtD9A8DTIjGNEfyD7fTdDJANUv5EOeJIfQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\Weight Watchers\\Measure.Services\\Measure.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\nservicebus\\7.3.0\\nservicebus.7.3.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\nservicebus.heartbeat\\3.0.1\\nservicebus.heartbeat.3.0.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\nservicebus.persistence.sql\\6.0.1\\nservicebus.persistence.sql.6.0.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\nservicebus.rabbitmq\\5.2.0\\nservicebus.rabbitmq.5.2.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\nservicebus.sagaaudit\\3.0.1\\nservicebus.sagaaudit.3.0.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\rabbitmq.client\\5.2.0\\rabbitmq.client.5.2.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.reflection.metadata\\1.8.0\\system.reflection.metadata.1.8.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.security.cryptography.cng\\4.7.0\\system.security.cryptography.cng.4.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.security.cryptography.pkcs\\4.7.0\\system.security.cryptography.pkcs.4.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.security.cryptography.xml\\4.7.0\\system.security.cryptography.xml.4.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

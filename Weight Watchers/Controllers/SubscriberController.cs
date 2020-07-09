@@ -72,5 +72,22 @@ namespace Weight_Watchers.Controllers
 
         }
 
+        //GET /tracking/:cardId? page=<>&size=<>
+        [HttpGet("tracking")]
+        public async Task<ActionResult<TrackingDTO>> GetTrackingsAsync([FromQuery] int id)
+        {
+            try
+            {
+                CardModel cardModel = await _subscriberService.GetCardAsync(id);
+                CardDTO cardDTO = _mapper.Map<CardDTO>(cardModel);
+                return Ok(cardDTO);
+            }
+
+            catch
+            {
+                return BadRequest();
+            }
+
+        }
     }
 }

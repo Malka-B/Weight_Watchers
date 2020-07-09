@@ -23,6 +23,9 @@ using Microsoft.AspNetCore.Mvc.Routing;
 using AutoMapper;
 using Subscriber.Data.Profiles;
 using Weight_Watchers.Middleware;
+using NServiceBus;
+
+
 
 namespace Weight_Watchers
 {
@@ -36,18 +39,87 @@ namespace Weight_Watchers
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public async void ConfigureServices(IServiceCollection services)
         {
+            {
+                //var endpointConfiguration = new EndpointConfiguration("Subscriber");
+                //var transport = endpointConfiguration.UseTransport<RabbitMQTransport>();
+                //transport.UseConventionalRoutingTopology();
+                //transport.ConnectionString("host= localhost:5672;username=guest;password=guest");
+
+
+                //var connection = Configuration.GetConnectionString("MeasurePersistanceDB");
+
+                //var persistence = endpointConfiguration.UsePersistence<SqlPersistence>();
+
+                //var subscription = persistence.SubscriptionSettings();
+                //subscription.CacheFor(TimeSpan.FromMinutes(1));
+                //persistence.SqlDialect<SqlDialect.MsSqlServer>();
+                //persistence.ConnectionBuilder(
+                //    connectionBuilder: () =>
+                //    {
+                //        return new SqlConnection(connection);
+                //    });
+
+                //endpointConfiguration.SendFailedMessagesTo("errorQueue");
+                //endpointConfiguration.AuditProcessedMessagesTo("audit");
+                //var conventions = endpointConfiguration.Conventions();
+                //conventions.DefiningCommandsAs(type => type.Namespace == "Messages.Commands");
+                //conventions.DefiningEventsAs(type => type.Namespace == "Messages.Events");
+
+                //var endpointInstance = await Endpoint.Start(endpointConfiguration)
+                //    .ConfigureAwait(false);
+            }
+            //var endpointConfiguration = new EndpointConfiguration("Subscriber");
+
+            //endpointConfiguration.EnableOutbox();
+            //endpointConfiguration.EnableInstallers();
+
+            //var connection = Configuration.GetConnectionString("MeasurePersistanceDB");
+            //var persistence = endpointConfiguration.UsePersistence<SqlPersistence>();
+
+            //persistence.SqlDialect<SqlDialect.MsSqlServer>();
+            //persistence.ConnectionBuilder(
+            //    connectionBuilder: () =>
+            //    {
+            //        return new SqlConnection(connection);
+            //    });
+
+            //var subscription = persistence.SubscriptionSettings();
+            //subscription.CacheFor(TimeSpan.FromMinutes(1));
+
+            //var transport = endpointConfiguration.UseTransport<RabbitMQTransport>();
+            //transport.UseConventionalRoutingTopology();
+            //transport.ConnectionString("host= localhost:5672;username=guest;password=guest");
+
+            //var recoverability = endpointConfiguration.Recoverability();            
+            //recoverability.Immediate(
+            //    immediate =>
+            //    {
+            //        immediate.NumberOfRetries(3);
+            //    });
+            //recoverability.Delayed(
+            //    delayed =>
+            //    {
+            //        var retries = delayed.NumberOfRetries(3);
+            //        retries.TimeIncrease(TimeSpan.FromSeconds(2));
+            //    });
+
+            //endpointConfiguration.SendFailedMessagesTo("error");
+            //endpointConfiguration.AuditProcessedMessagesTo("audit");
+            ////var conventions = endpointConfiguration.Conventions();
+            ////conventions.DefiningCommandsAs(type => type.Namespace == "Messages.Commands");
+            ////conventions.DefiningEventsAs(type => type.Namespace == "Messages.Events");
+
+
+            //var endpointInstance = await Endpoint.Start(endpointConfiguration)
+            //    .ConfigureAwait(false);
+
+            //services.AddScoped(typeof(IEndpointInstance), x => endpointInstance);
+            
             services.AddScoped<ISubscriberService, SubscriberService>();
             services.AddScoped<ISubscriberRepository, SubscriberRepository>();
-            services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
-            services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
-            services.AddScoped<IUrlHelper>(x =>
-            {
-                var actionContext = x.GetRequiredService<IActionContextAccessor>().ActionContext;
-                var factory = x.GetRequiredService<IUrlHelperFactory>();
-                return factory.GetUrlHelper(actionContext);
-            });
+            
 
             var mappingConfig = new MapperConfiguration(mc =>
             {
@@ -71,6 +143,7 @@ namespace Weight_Watchers
 
             services.AddControllers();
             services.AddMvc();
+            services.AddAuthorization();
 
             services.AddDbContext<WeightWatchersContext>(
                   options => options.UseSqlServer(Configuration.GetConnectionString("WeightWatchersDBConnectionString")));

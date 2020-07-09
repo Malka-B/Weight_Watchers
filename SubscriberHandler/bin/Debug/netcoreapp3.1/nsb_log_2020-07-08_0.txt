@@ -1,0 +1,18 @@
+﻿2020-07-08 19:04:51.598 INFO  Logging to 'C:\Users\User\source\repos\Weight Watchers\SubscriberHandler\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-08 19:04:52.098 INFO  Auditing processed messages to 'audit'
+2020-07-08 19:04:52.306 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-07-08 19:04:53.181 INFO  Executing 'C:\Users\User\source\repos\Weight Watchers\SubscriberHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-08 19:04:53.344 INFO  Executing saga creation scripts:
+C:\Users\User\source\repos\Weight Watchers\SubscriberHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\BMIUpdatedSaga_Create.sql
+2020-07-08 19:06:27.665 INFO  Logging to 'C:\Users\User\source\repos\Weight Watchers\SubscriberHandler\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-08 19:06:30.122 INFO  Auditing processed messages to 'audit'
+2020-07-08 19:06:30.522 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-07-08 19:06:32.210 INFO  Executing 'C:\Users\User\source\repos\Weight Watchers\SubscriberHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-08 19:06:32.362 INFO  Executing saga creation scripts:
+C:\Users\User\source\repos\Weight Watchers\SubscriberHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\BMIUpdatedSaga_Create.sql
+2020-07-08 19:14:03.010 INFO  Logging to 'C:\Users\User\source\repos\Weight Watchers\SubscriberHandler\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-08 19:14:03.576 INFO  Auditing processed messages to 'audit'
+2020-07-08 19:14:03.790 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04

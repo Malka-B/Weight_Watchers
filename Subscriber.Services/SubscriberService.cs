@@ -1,4 +1,7 @@
 ﻿using AutoMapper;
+using Messages.Commands;
+using Messages.Events;
+using NServiceBus;
 using Subscriber.Services.Models;
 using System;
 using System.Collections.Generic;
@@ -20,12 +23,14 @@ namespace Subscriber.Services
 
         public async Task<CardModel> GetCardAsync(int id)
         {
-                return await _subscriberRepository.GetCardAsync(id);
-                    }
+            return await _subscriberRepository.GetCardAsync(id);
+        }
+
+       
 
         public async Task<int> LoginAsync(string email, string password)
         {
-            
+
             return await _subscriberRepository.LoginAsync(email, password);
         }
 
@@ -34,6 +39,15 @@ namespace Subscriber.Services
             //subscriberModel.Id = Guid.NewGuid();
 
             return await _subscriberRepository.RegisterAsync(subscriberModel);
+        }
+
+        public async Task<bool> CardExistAsync(int cardId)
+        {
+            return await _subscriberRepository.CardExistAsync(cardId);
+        }
+        public async Task UpdateBMIAsync(UpdateMeasure message)
+        {
+            await _subscriberRepository.UpdateBMIAsync(message);
         }
     }
 }

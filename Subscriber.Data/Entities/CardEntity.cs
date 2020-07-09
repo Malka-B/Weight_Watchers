@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace Subscriber.Data.Entities
@@ -10,11 +11,12 @@ namespace Subscriber.Data.Entities
 
         public DateTime OpenDate { get; set; }
 
-        public int BMI { get; set; }
+        public float BMI { get; set; }
 
         public int Height { get; set; }
 
-        public int Weight { get; set; }
+        [Column(TypeName = "decimal(18,4)")]
+        public decimal Weight { get; set; }
 
         public DateTime UpdateDate { get; set; }
 

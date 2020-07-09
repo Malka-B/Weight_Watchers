@@ -1,0 +1,80 @@
+﻿2020-07-08 19:03:14.069 INFO  Logging to 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-08 19:03:14.483 INFO  Auditing processed messages to 'audit'
+2020-07-08 19:03:14.686 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-07-08 19:04:53.119 INFO  Logging to 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-08 19:04:53.373 INFO  Auditing processed messages to 'audit'
+2020-07-08 19:04:53.460 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-07-08 19:04:55.387 INFO  Executing 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-08 19:06:32.083 INFO  Logging to 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-08 19:06:32.395 INFO  Auditing processed messages to 'audit'
+2020-07-08 19:06:32.507 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-07-08 19:06:34.360 INFO  Executing 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-08 19:14:04.407 INFO  Logging to 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-08 19:14:06.618 INFO  Auditing processed messages to 'audit'
+2020-07-08 19:18:17.226 INFO  Logging to 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-08 19:18:17.691 INFO  Auditing processed messages to 'audit'
+2020-07-08 19:18:17.824 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-07-08 19:18:19.196 INFO  Executing 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-08 19:23:15.623 INFO  Logging to 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-08 19:23:16.092 INFO  Auditing processed messages to 'audit'
+2020-07-08 19:23:16.393 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-07-08 19:23:18.612 INFO  Executing 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-08 19:25:01.204 INFO  Logging to 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-08 19:25:01.678 INFO  Auditing processed messages to 'audit'
+2020-07-08 19:25:01.835 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-07-08 19:25:03.402 INFO  Executing 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-08 22:54:48.049 INFO  Logging to 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-08 22:54:48.386 INFO  Auditing processed messages to 'audit'
+2020-07-08 22:54:48.503 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-07-08 22:54:50.158 INFO  Executing 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-08 22:56:09.547 INFO  Logging to 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-08 22:56:09.866 INFO  Auditing processed messages to 'audit'
+2020-07-08 22:56:09.990 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-07-08 22:56:11.169 INFO  Executing 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-08 23:11:55.508 INFO  Logging to 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-08 23:11:55.859 INFO  Auditing processed messages to 'audit'
+2020-07-08 23:11:55.989 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-07-08 23:11:57.742 INFO  Executing 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-08 23:14:32.736 INFO  Logging to 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-08 23:14:33.046 INFO  Auditing processed messages to 'audit'
+2020-07-08 23:14:33.155 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-07-08 23:14:34.299 INFO  Executing 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-08 23:34:33.391 INFO  Logging to 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-08 23:34:33.847 INFO  Auditing processed messages to 'audit'
+2020-07-08 23:34:34.016 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-07-08 23:36:12.349 INFO  Logging to 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-08 23:36:12.917 INFO  Auditing processed messages to 'audit'
+2020-07-08 23:36:13.111 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-07-08 23:36:15.677 INFO  Executing 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-08 23:41:33.742 INFO  Logging to 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-08 23:41:34.231 INFO  Auditing processed messages to 'audit'
+2020-07-08 23:41:34.477 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-07-08 23:41:39.767 INFO  Executing 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-08 23:43:30.174 INFO  Logging to 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-08 23:43:30.742 INFO  Auditing processed messages to 'audit'
+2020-07-08 23:43:30.953 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-07-08 23:43:33.828 INFO  Executing 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-08 23:50:34.028 INFO  Logging to 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-08 23:50:34.411 INFO  Auditing processed messages to 'audit'
+2020-07-08 23:50:34.589 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-07-08 23:50:36.886 INFO  Executing 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-08 23:52:32.987 INFO  Logging to 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-08 23:52:33.500 INFO  Auditing processed messages to 'audit'
+2020-07-08 23:52:33.694 INFO  Selected active license from C:\Users\User\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-04
+2020-07-08 23:52:36.774 INFO  Executing 'C:\Users\User\source\repos\Weight Watchers\Measure.WepApi\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'

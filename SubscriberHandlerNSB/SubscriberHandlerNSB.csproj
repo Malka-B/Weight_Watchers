@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NServiceBus" Version="7.3.0" />
+    <PackageReference Include="NServiceBus.Extensions.Hosting" Version="1.0.1" />
+    <PackageReference Include="NServiceBus.Heartbeat" Version="3.0.1" />
+    <PackageReference Include="NServiceBus.Persistence.Sql" Version="6.0.1" />
+    <PackageReference Include="NServiceBus.RabbitMQ" Version="5.2.0" />
+    <PackageReference Include="NServiceBus.SagaAudit" Version="3.0.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Messages\Messages.csproj" />
+    <ProjectReference Include="..\Subscriber.Data\Subscriber.Data.csproj" />
+    <ProjectReference Include="..\Subscriber.Services\Subscriber.Services.csproj" />
+  </ItemGroup>
+
+</Project>

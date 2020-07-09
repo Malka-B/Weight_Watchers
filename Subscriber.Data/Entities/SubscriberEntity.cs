@@ -16,6 +16,6 @@ namespace Subscriber.Data.Entities
 
         public string Password { get; set; }
 
-        public virtual CardEntity CardEntity { get; set; }
+        //public virtual CardEntity CardEntity { get; set; }
     }
 }

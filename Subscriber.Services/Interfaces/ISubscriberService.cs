@@ -1,4 +1,5 @@
-﻿using Subscriber.Services.Models;
+﻿using Messages.Commands;
+using Subscriber.Services.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,5 +12,7 @@ namespace Subscriber.Services
         Task<bool> RegisterAsync(SubscriberModel register);
         Task<CardModel> GetCardAsync(int id);
         Task<int> LoginAsync(string email, string password);
+        Task<bool> CardExistAsync(int cardId);
+        Task UpdateBMIAsync(UpdateMeasure message);
     }
 }
